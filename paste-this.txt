@@ -1,0 +1,130 @@
+<div class="tj-get">
+  <div class="tj-get__inner">
+
+    <img class="tj-get__logo"
+         src="https://tarjumah.com/cdn/shop/files/IMG_4608.png?v=1779272014&width=500"
+         alt="Tarjumah" width="500" height="181">
+
+    <h1 class="tj-get__title">Pray with understanding</h1>
+
+    <p class="tj-get__lead">
+      Tarjumah translates the Arabic of your prayer, line by line, as it is recited &mdash;
+      so you can follow every word in a language you understand.
+    </p>
+
+    <ul class="tj-get__points">
+      <li>Live translation while you pray</li>
+      <li>AI prayer guide, step by step</li>
+      <li>The 500 most common words of the Qur&rsquo;an</li>
+      <li>Prayer times, duas and qibla</li>
+    </ul>
+
+    <div class="tj-get__buttons">
+
+      <a class="tj-get__btn tj-get__btn--ios"
+         href="https://apps.apple.com/au/app/tarjumah/id6763019321">
+        <span class="tj-get__btn-kicker">Download for</span>
+        <span class="tj-get__btn-name">iPhone &amp; iPad</span>
+      </a>
+
+      <a class="tj-get__btn tj-get__btn--android"
+         href="https://play.google.com/store/apps/details?id=com.tarjumah.tarjumah">
+        <span class="tj-get__btn-kicker">Download for</span>
+        <span class="tj-get__btn-name">Android</span>
+      </a>
+
+    </div>
+
+    <p class="tj-get__foot">tarjumah.com</p>
+
+  </div>
+</div>
+
+<style>
+.tj-get{
+  --tj-bg:#221814;
+  --tj-ink:#F4EDE4;
+  --tj-muted:#B8A99B;
+  --tj-gold:#E8AF57;
+  --tj-line:rgba(244,237,228,.16);
+  background:var(--tj-bg);
+  color:var(--tj-ink);
+  font-family:"Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  padding:56px 20px 44px;
+  margin:0;
+  text-align:center;
+  -webkit-font-smoothing:antialiased;
+}
+.tj-get *{box-sizing:border-box;}
+.tj-get__inner{max-width:560px;margin:0 auto;}
+
+.tj-get__logo{
+  width:auto;height:52px;max-width:70%;
+  display:block;margin:0 auto 30px;
+}
+
+.tj-get__title{
+  font-family:"Anton",Impact,sans-serif;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.02em;
+  line-height:1.02;
+  font-size:clamp(2.1rem,8vw,3.2rem);
+  margin:0 0 18px;
+  color:var(--tj-ink);
+}
+
+.tj-get__lead{
+  font-size:1.02rem;line-height:1.6;
+  color:var(--tj-muted);
+  margin:0 auto 26px;max-width:34em;
+}
+
+.tj-get__points{
+  list-style:none;padding:0;margin:0 auto 34px;
+  display:inline-block;text-align:left;
+}
+.tj-get__points li{
+  position:relative;padding-left:26px;margin:0 0 10px;
+  font-size:.97rem;line-height:1.45;color:var(--tj-ink);
+}
+.tj-get__points li::before{
+  content:"";position:absolute;left:4px;top:.55em;
+  width:7px;height:7px;border-radius:50%;
+  background:var(--tj-gold);
+}
+
+.tj-get__buttons{
+  display:flex;flex-direction:column;gap:12px;
+  max-width:340px;margin:0 auto;
+}
+
+.tj-get__btn{
+  display:block;text-decoration:none;
+  border-radius:14px;padding:14px 22px;
+  border:1.5px solid var(--tj-line);
+  color:var(--tj-ink);
+  background:transparent;
+  transition:transform .12s ease,background .18s ease,border-color .18s ease;
+}
+.tj-get__btn:hover{transform:translateY(-1px);}
+.tj-get__btn-kicker{
+  display:block;font-size:.7rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--tj-muted);margin-bottom:3px;
+}
+.tj-get__btn-name{
+  display:block;
+  font-family:"Anton",Impact,sans-serif;
+  font-size:1.22rem;letter-spacing:.03em;text-transform:uppercase;
+}
+
+.tj-get__foot{
+  margin:34px 0 0;font-size:.74rem;letter-spacing:.18em;
+  text-transform:uppercase;color:rgba(184,169,155,.6);
+}
+
+@media (min-width:640px){
+  .tj-get{padding:76px 24px 60px;}
+  .tj-get__logo{height:60px;margin-bottom:36px;}
+}
+</style>
